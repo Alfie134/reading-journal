@@ -1,0 +1,9 @@
+img {
+    width: 230px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.book-info {
+    display: flex;
+}

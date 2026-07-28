@@ -1,23 +1,14 @@
+import CurrentlyReadingHero from '../compontens/book/CurrentlyReadingHero';
 import './HomePage.css';
 import QuoteCard from 'C:/Coding/reading-journal/src/compontens/journal/QuoteCard.jsx';
-import NavBar from '../compontens/Layout/NavBar';
 
 
 export default function HomePage() {
     return (
         <main className='home-page'>
-            <NavBar></NavBar>
             <section className='current-read'>
-                <div className='current-book'>
-                    <img src="/public/alchemised.jpg" alt="book cover" />
-                </div>
-
-                <div className=' book-info'>
-                    <p> Currently Reading </p>
-                    <h2> Title of Book</h2>
-                    <p> Name of Author </p>
-                    <p> x of x pages * xh xm logged</p>
-                </div>
+                <CurrentlyReadingHero />
+                
             </section>
 
             <section className='general-info'>
