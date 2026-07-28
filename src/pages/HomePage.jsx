@@ -1,8 +1,12 @@
 import './HomePage.css';
+import QuoteCard from 'C:/Coding/reading-journal/src/compontens/journal/QuoteCard.jsx';
+import NavBar from '../compontens/Layout/NavBar';
+
 
 export default function HomePage() {
     return (
         <main className='home-page'>
+            <NavBar></NavBar>
             <section className='current-read'>
                 <div className='current-book'>
                     <img src="/public/alchemised.jpg" alt="book cover" />
@@ -25,12 +29,8 @@ export default function HomePage() {
                     <p> Series in progress</p>
                 </div>
                 <div className='general-book'></div>
-                <div className='quotes'>
-                    <h2> from the commonplace </h2>
-                    <p>"Book qoute"</p>
-                    <p>Book title</p>
-                    <div className='vertical-line'></div>
-                </div>
+                <QuoteCard text={"Beauty is terror. Whatever we call beautiful, we quiver before it."} source={"The Secret History"}></QuoteCard>
+                <QuoteCard text={"It's a rare thing to know your own heart."} source={"Piranesi"}></QuoteCard>
             </section>
         </main>
     );

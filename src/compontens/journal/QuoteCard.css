@@ -1,0 +1,16 @@
+.quote-card {
+    border-left: 2px solid #3B2A1E;
+    padding-left: 14px;
+    margin-bottom: 16px;
+}
+
+.quote-card__text {
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.quote-card__source {
+    font-size: 0.75rem;
+    color: #8A6F4F;
+    margin-top: 6px;
+}
