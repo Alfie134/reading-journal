@@ -1,0 +1,27 @@
+.home-page {
+    background-color: var(--bg);
+}
+
+img {
+    width: 230px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+hr {
+    background-color: #916340;
+    border: none;
+    height: 1px;
+    margin: 0.5em auto;
+}
+
+.general-book {
+    width: 165px;
+    height: 250px;
+    background-color: #5C4630;
+    border-radius: 10px;
+}
+
+.vertical-line {
+    
+}
