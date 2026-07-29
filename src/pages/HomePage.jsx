@@ -7,8 +7,7 @@ export default function HomePage() {
     return (
         <main className='home-page'>
             <section className='current-read'>
-                <CurrentlyReadingHero />
-                
+                <CurrentlyReadingHero id="2"/>
             </section>
 
             <section className='general-info'>
