@@ -14,16 +14,18 @@ export default function HomePage() {
             <section className='general-info'>
                 <hr />
                 <div className='general-stats'>
-                    <p> books read this year</p>
-                    <p> hours read</p>
-                    <p>Day streak</p>
-                    <p> Series in progress</p>
+                    <p> Books read year </p>
+                    <p> Hours read </p>
+                    <p> Day streak </p>
+                    <p> Series in progress </p>
                 </div>
+
                 <div className='bottom-section'> 
+                    {/* Brown book template at the bottom */}
+                    <div className='general-book'/> 
                     <div className='general-book'/>
                     <div className='general-book'/>
-                    <div className='general-book'/>
-                    <div className='general-book'/> {/* Brown book template at the bottom */}
+                    <div className='general-book'/> 
                     
                     <div className='qoutes'>
                         <QuoteCard text={"\"Beauty is terror. Whatever we call beautiful, we quiver before it.\""} source={"\"The Secret History\""}></QuoteCard>

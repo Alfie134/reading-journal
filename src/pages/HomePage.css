@@ -1,5 +1,6 @@
 .home-page {
     background-color: var(--bg);
+    margin-top: 15px;
 }
 
 img {
@@ -12,11 +13,24 @@ hr {
     background-color: #916340;
     border: none;
     height: 1px;
-    margin: 0.5em auto;
+    margin: 0 auto;
 }
+
 
 .general-stats {
     color: var(--text-accent);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.general-stats p {
+    border-left: 1px solid var(--text-accent);
+    height: 60px;
+    padding-left: 8px;
+    margin-bottom: 24px;
+    margin-top: 0px;
+
 }
 
 .bottom-section {
