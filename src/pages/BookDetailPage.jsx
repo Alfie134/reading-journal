@@ -15,15 +15,22 @@ export default function BookDetailPage() {
                     <p>stars + time spend + pages</p>
                     <p>Genres</p>
                 </div>
-                <hr />
             </section>
+            <hr />
             <section className='book-detail-journal'>
                 <div className='journal-entries'>
                     <h2>Journal Entry</h2>
-                    <p>Entry 1</p>
+                    <p>loru ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
+                    <h2>reading sessions</h2>
+                    <p>date + time</p>
+                </div>
+                <div className='saved-quotes'>
+                    <h2>Saved Quotes</h2>  
                     <QuoteCard text={"\"Beauty is terror. Whatever we call beautiful, we quiver before it.\""} source={"p. 200"}></QuoteCard>
                     <QuoteCard text={"\"It's a rare thing to know your own heart.\""} source={"p. 1"}></QuoteCard>
-                    <AddQuoteButton/> 
+                <div>
+                        <AddQuoteButton/> 
+                </div>
                 </div>
             </section>
         </main>
