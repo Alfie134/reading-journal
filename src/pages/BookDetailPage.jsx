@@ -1,5 +1,6 @@
 import QuoteCard from '../compontens/journal/QuoteCard';
 import AddQuoteButton from '../compontens/journal/AddQuoteButton';
+import Stars from '../compontens/animations/stars';
 import './BookDetailPage.css';
 
 
@@ -8,13 +9,14 @@ export default function BookDetailPage() {
         <main className='book-detail-page'>
             <section className='book-detail'>
                 <div className='general-book'></div>
-                <div className='book-detail-info'>
-                    <p>series - 1 of 1 - finished</p>
-                    <h1>MockBook</h1>
-                    <p>Author</p>
-                    <p>stars + time spend + pages</p>
-                    <p>Genres</p>
-                </div>
+                    <div className='book-detail-info'>
+                        <p>series - 1 of 1 - finished</p>
+                        <h1>MockBook</h1>
+                        <p>Author</p>
+                        <p>Genres</p>
+                        <p>finished 12 jul 2026 - 6h 40m - 245 pages</p> 
+                        <Stars></Stars>
+                    </div>
             </section>
             <hr />
             <section className='book-detail-journal'>
