@@ -1,3 +1,5 @@
+import ReadingStatus from './ReadingStatus';
+
 const MockBooks = [
   {
     id: "1",
@@ -8,7 +10,7 @@ const MockBooks = [
     cover: '',
     pages: 200,
     hoursLogged: '',
-    status: ''
+    status: ReadingStatus.TBR
 },
 
 {
@@ -20,7 +22,7 @@ const MockBooks = [
   cover: './alchemised.jpg',
   pages: 1040,
   hoursLogged: '',
-  status: ''
+  status: ReadingStatus.FINISHED
 },
 
 {
@@ -32,7 +34,7 @@ const MockBooks = [
   cover: './ThePoppyWar.jpg',
   pages: 530,
   hoursLogged: '',
-  status: ''
+  status: ReadingStatus.READING
 }
 ];
 export default MockBooks;

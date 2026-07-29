@@ -15,7 +15,7 @@ export default function BookDetailPage() {
                         <p>Author</p>
                         <p>Genres</p>
                         <p>finished 12 jul 2026 - 6h 40m - 245 pages</p> 
-                        <Stars></Stars>
+                        <Stars/>
                     </div>
             </section>
             <hr />
