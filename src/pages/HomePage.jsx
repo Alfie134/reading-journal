@@ -20,8 +20,8 @@ export default function HomePage() {
                     <p> Series in progress</p>
                 </div>
                 <div className='general-book'></div>
-                <QuoteCard text={"Beauty is terror. Whatever we call beautiful, we quiver before it."} source={"The Secret History"}></QuoteCard>
-                <QuoteCard text={"It's a rare thing to know your own heart."} source={"Piranesi"}></QuoteCard>
+                <QuoteCard text={"\"Beauty is terror. Whatever we call beautiful, we quiver before it.\""} source={"\"The Secret History\""}></QuoteCard>
+                <QuoteCard text={"\"It's a rare thing to know your own heart.\""} source={"Piranesi"}></QuoteCard>
             </section>
         </main>
     );
