@@ -19,7 +19,7 @@ export default function CurrentlyReadingHero({id}) {
                 <p> Currently Reading </p>
                 <h2 className='book-title'> {currBook.title} </h2>
                 <p className='author-name'> { currBook.author} </p>
-                <p1> {currBook.pages} pages <p2>*</p2>  {currBook.hoursLogged}</p1>
+                <p1> {currBook.pages} pages <p2>*</p2>  {currBook.hoursLogged}h {currBook.miutesLogged}m</p1>
             </div>
         </main>
     );

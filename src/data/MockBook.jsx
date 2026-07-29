@@ -9,7 +9,9 @@ const MockBooks = [
     yearPublished: 1925,
     cover: '',
     pages: 200,
-    hoursLogged: '',
+    currentPage: null ,
+    hoursLogged: '12',
+    miutesLogged: '45',
     status: ReadingStatus.TBR
 },
 
@@ -21,7 +23,9 @@ const MockBooks = [
   yearPublished: 2025,
   cover: './alchemised.jpg',
   pages: 1040,
-  hoursLogged: '',
+  currentPage: null ,
+  hoursLogged: '12',
+  miutesLogged: '45',
   status: ReadingStatus.FINISHED
 },
 
@@ -33,7 +37,9 @@ const MockBooks = [
   yearPublished: 2018,
   cover: './ThePoppyWar.jpg',
   pages: 530,
-  hoursLogged: '',
+  currentPage: null ,
+  hoursLogged: '12',
+  miutesLogged: '45',
   status: ReadingStatus.READING
 }
 ];
