@@ -1,0 +1,13 @@
+.addquote button {
+    background-color: var(--bg);
+    border: 2px solid #3B2A1E;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+    color: #8A6F4F;
+    padding: 20px 150px;
+}
+

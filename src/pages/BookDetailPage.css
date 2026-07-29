@@ -1,0 +1,39 @@
+.book-detail-page {
+    background-color: var(--bg);
+}
+hr {
+    background-color: #916340;
+    border: none;
+    height: 1px;
+    margin: 0.5em auto;
+}
+.book-detail {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin: 2em;
+}
+.general-book {
+    width: 220px;
+    height: 320px;
+    background-color: #5C4630;
+    border-radius: 10px;
+}
+.book-detail-info {
+    width: 800px;
+    height: 320px;
+}
+.book-detail-journal {
+    display: flex;
+    flex-direction: row;
+    gap: 13em;
+    margin: 2em;
+}
+.journal-entries {
+    width: 500px;
+    height: 320px;
+}
+.saved-quotes {
+    width: 600px;
+    height: 320px;
+}
