@@ -19,9 +19,17 @@ export default function HomePage() {
                     <p>Day streak</p>
                     <p> Series in progress</p>
                 </div>
-                <div className='general-book'></div>
-                <QuoteCard text={"\"Beauty is terror. Whatever we call beautiful, we quiver before it.\""} source={"\"The Secret History\""}></QuoteCard>
-                <QuoteCard text={"\"It's a rare thing to know your own heart.\""} source={"Piranesi"}></QuoteCard>
+                <div className='bottom-section'> 
+                    <div className='general-book'/>
+                    <div className='general-book'/>
+                    <div className='general-book'/>
+                    <div className='general-book'/> {/* Brown book template at the bottom */}
+                    
+                    <div className='qoutes'>
+                        <QuoteCard text={"\"Beauty is terror. Whatever we call beautiful, we quiver before it.\""} source={"\"The Secret History\""}></QuoteCard>
+                        <QuoteCard text={"\"It's a rare thing to know your own heart.\""} source={"Piranesi"}></QuoteCard>
+                    </div>
+                </div>
             </section>
         </main>
     );

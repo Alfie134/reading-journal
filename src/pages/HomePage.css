@@ -15,9 +15,25 @@ hr {
     margin: 0.5em auto;
 }
 
+.general-stats {
+    color: var(--text-accent);
+}
+
+.bottom-section {
+    display: flex;
+    gap: 20px;
+}
+
+
 .general-book {
     width: 165px;
     height: 250px;
     background-color: #5C4630;
     border-radius: 10px;
+}
+
+.qoutes {
+    display:  flex;
+    flex-direction: column;
+    gap: 14px;
 }
