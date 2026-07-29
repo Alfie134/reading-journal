@@ -1,6 +1,6 @@
 import CurrentlyReadingHero from '../compontens/book/CurrentlyReadingHero';
 import './HomePage.css';
-import QuoteCard from 'C:/Coding/reading-journal/src/compontens/journal/QuoteCard.jsx';
+import QuoteCard from '../compontens/journal/QuoteCard';
 
 
 export default function HomePage() {

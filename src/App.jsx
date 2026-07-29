@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './compontens/layout/NavBar';
 import HomePage from './pages/HomePage';
+import BookDetailPage from './pages/BookDetailPage';
 import './App.css'
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
         <NavBar/>
         <Routes>
           <Route path="/" element={<HomePage/> } />
+          <Route path="/book/:id" element={<BookDetailPage/> } /> 
         </Routes>
 
       </BrowserRouter>
